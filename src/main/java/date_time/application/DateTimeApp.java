@@ -6,6 +6,7 @@ import main.java.web.components.CalendarProviderComponent;
 import java.util.List;
 
 public class DateTimeApp {
+
     public static void main(String[] args) throws InvalidFiscalDateFormatException {
 
         CalendarProviderComponent cpc = new CalendarProviderComponent();

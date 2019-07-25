@@ -77,7 +77,8 @@ public class CalendarProviderComponent implements ICalendarProvider, CalendarInp
     }
 
     @Override
-    public List<String> getMonthsFormatted(int fiscalDateFrom, int fiscalDateTo) throws InvalidFiscalDateFormatException {
+    public List<String> getMonthsFormatted(int fiscalDateFrom, int fiscalDateTo)
+            throws InvalidFiscalDateFormatException {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MMM-yyyy");
 

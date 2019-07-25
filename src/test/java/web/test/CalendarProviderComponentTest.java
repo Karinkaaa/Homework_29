@@ -76,7 +76,6 @@ public class CalendarProviderComponentTest {
     @Test
     public void getMonthsFormatted() throws InvalidFiscalDateFormatException {
 
-
         List<String> list = new ArrayList<>();
 
         for (int i = 1; i <= 31; i++) {

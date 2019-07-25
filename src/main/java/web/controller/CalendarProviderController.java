@@ -37,6 +37,7 @@ public class CalendarProviderController {
     public String getDayInfo(int year, int dayInYear) {
 
         logger.info("Get day info...");
+
         try {
             return calendarProvider.getDayInfo(year, dayInYear).toString();
         } catch (InvalidDayInYearException e) {
